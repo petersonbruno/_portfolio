@@ -120,7 +120,10 @@ export const RESUME_DATA = {
     "Django",
     "RestFull API",
     "JavaScript",
+    "ReactJs",
+    "NextJs",
     "MySQL",
+    "Postgress",
     "HTML5, CSS",
     "Docker"
   
