@@ -27,7 +27,7 @@ export const RESUME_DATA = {
   about:
     "Innovative Full-Stack Developer with a passion for crafting seamless, user-centric web applications.",
   summary:
-    "I'm Bruno, a Full-Stack Developer with great experience in Python, JavaScript, ReactJS, Next.js, and Docker. I develop responsive web applications, focusing on intuitive design with Figma and strong back-end development using REST APIs. Additionally, this work covers database management with MySQL and PostgreSQL for an effective and safe treatment of data. I love implementing clean code and, of course, learning something new every day—that is why I am prepared to face the new challenges.",
+    "Full-Stack Developer with great experience in Python, JavaScript, ReactJS, Next.js, and Docker. I develop responsive web applications, focusing on intuitive design with Figma and strong back-end development using REST APIs. Additionally, this work covers database management with MySQL and PostgreSQL for an effective and safe treatment of data. I love implementing clean code and, of course, learning something new every day—that is why I am prepared to face the new challenges.",
   avatarUrl: "https://avatars.githubusercontent.com/u/68355315?v=4",
   personalWebsiteUrl: "https://jarocki.me",
   contact: {
