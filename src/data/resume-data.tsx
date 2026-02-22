@@ -169,7 +169,7 @@ export const RESUME_DATA = {
         "I developed an online computer and accessories store that allows customers to easily browse products, view specifications, and place orders. The platform simplifies product selection while enabling the seller to manage orders and coordinate deliveries efficiently.",
       logo: MonitoLogo,
       link: {
-        label: "monito.dev",
+        label: "levelsprotechshop.vercel.app",
         href: "https://levelsprotechshop.vercel.app/",
       },
     },
@@ -180,7 +180,7 @@ export const RESUME_DATA = {
         "LevelsProTech Organization Website is a modern and user-friendly platform designed to showcase the organization’s services, projects, and mission. The website provides easy access to information, improves online visibility, and allows clients to connect with the organization efficiently.",
       logo: JarockiMeLogo,
       link: {
-        label: "github.com",
+        label: "levelsprotech.netlify.app",
         href: "https://levelsprotech.netlify.app/",
       },
     },
@@ -191,7 +191,7 @@ export const RESUME_DATA = {
         "GeoClimaTz Website is a professional online platform designed to present climate, environmental, and geospatial solutions offered by the organization. The website showcases services, projects, and research activities while providing clients and partners with easy access to information and contact options.",
       logo: Minimal,
       link: {
-        label: "useminimal.com",
+        label: "geoclimatz.org",
         href: "https://geoclimatz.org/",
       },
     },
@@ -202,20 +202,20 @@ export const RESUME_DATA = {
         "I developed a web application that helps manage and automate the operations of a vicoba (a type of microfinance institution). The system allows users to easily track contributions, manage loans, and generate reports, streamlining the administrative tasks associated with running a vicoba.",
       logo: BarepapersLogo,
       link: {
-        label: "barepapers.com",
+        label: "vicoba-tawny.vercel.app",
         href: "https://vicoba-tawny.vercel.app/",
       },
     },
-    // {
-    //   title: "Year progress",
-    //   techStack: ["Side Project", "TypeScript", "Next.js"],
-    //   description: "Tracks current year progress and displays a countdown",
-    //   logo: YearProgressLogo,
-    //   link: {
-    //     label: "getyearprogress.com",
-    //     href: "https://getyearprogress.com/",
-    //   },
-    // },
+    {
+      title: "MedPack Redesign",
+      techStack: ["TypeScript", "Next.js"],
+      description: "MedPack Redesign focused on improving the user experience and visual identity of the platform. The project enhanced the interface with a modern, clean design, simplified navigation, and improved usability to ensure a smoother and more intuitive experience for users.",
+      logo: YearProgressLogo,
+      link: {
+        label: "getyearprogress.com",
+        href: "https://medpack-redesign.vercel.app/",
+      },
+    },
     // {
     //   title: "Mobile Vikings",
     //   techStack: ["Lead Android Developer", "Android", "Kotlin"],
