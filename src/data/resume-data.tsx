@@ -25,7 +25,7 @@ export const RESUME_DATA = {
   location: "Morogoro, Tanzania, GMT",
   locationLink: "https://maps.app.goo.gl/3Spy2b93zDscuJ5u6",
   about:
-    "Innovative Full-Stack Developer with a passion for crafting seamless, user-centric web applications.",
+    "Innovative Software Developer with a passion for building efficient, scalable, and user-focused applications.",
   summary:
     "Full-Stack Developer with great experience in Python, JavaScript, ReactJS, Next.js, and Docker. I develop responsive web applications, focusing on intuitive design with Figma and strong back-end development using REST APIs. Additionally, this work covers database management with MySQL and PostgreSQL for an effective and safe treatment of data. I love implementing clean code and, of course, learning something new every day—that is why I am prepared to face the new challenges.",
   avatarUrl: "https://avatars.githubusercontent.com/u/68355315?v=4",
@@ -126,23 +126,24 @@ export const RESUME_DATA = {
     "Postgress",
     "HTML5, CSS",
     "Docker"
-  
+
   ],
   projects: [
     {
-      title: "Uni Collect App",
+      title: "Matokeo WebApp",
       techStack: [
-        "Django",
+        "NextJs",
         "REST Framework",
+        "Django",
         "MySQL",
-        
+
       ],
       description:
-        "Developed an app back-end that allows students to buy past papers online for their specific courses by subscribing to different packages.",
+        "I built a simple interface that allows teachers to enter results easily and automatically export structured Excel reports.The goal is clear: reduce workload, improve accuracy, and support educators with practical technology.",
       logo: ParabolLogo,
       link: {
         label: "github.com",
-        href: "link",
+        href: "https://matokeo-beta.vercel.app/matokeo?token=YOUR_TOKEN_HERE",
       },
     },
     {
@@ -151,7 +152,7 @@ export const RESUME_DATA = {
         "Django",
         "REST Framework",
         "MySQL",
-        
+
       ],
       description:
         "Developed an app back-end for LevelsProTech that helps teachers automate their daily tasks, such as planning results, scheduling timetables, managing tasks, and merging multiple results from Excel files.",
@@ -162,49 +163,49 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "Victory Website",
-      techStack: ["HTML", "CSS", "JavaScript", "EmailJs"],
+      title: "Ecommerce Website",
+      techStack: ["Django", "Nextjs", "RestAPI", "MySQL"],
       description:
-        "I build and deploy websites online for customers. I also utilize Django for backend development to create robust and dynamic web applications",
+        "I developed an online computer and accessories store that allows customers to easily browse products, view specifications, and place orders. The platform simplifies product selection while enabling the seller to manage orders and coordinate deliveries efficiently.",
       logo: MonitoLogo,
       link: {
         label: "monito.dev",
-        href: "https://66c2e8f00e2299a21dc91f80--nimble-belekoy-793055.netlify.app/",
+        href: "https://levelsprotechshop.vercel.app/",
       },
     },
     {
       title: "LevelsProTech Website",
       techStack: ["HTML", "CSS", "JavaScript", "EmailJs"],
       description:
-        "I build and deploy websites online for customers. I also utilize Django for backend development to create robust and dynamic web applications",
+        "LevelsProTech Organization Website is a modern and user-friendly platform designed to showcase the organization’s services, projects, and mission. The website provides easy access to information, improves online visibility, and allows clients to connect with the organization efficiently.",
       logo: JarockiMeLogo,
       link: {
         label: "github.com",
-        href: "https://levelsprotech-website.vercel.app/",
+        href: "https://levelsprotech.netlify.app/",
       },
     },
     {
       title: "GeoclimaTz Website",
       techStack: ["HTML", "CSS", "JavaScript", "EmailJs"],
       description:
-        "I build and deploy websites online for customers. I also utilize Django for backend development to create robust and dynamic web applications",
+        "GeoClimaTz Website is a professional online platform designed to present climate, environmental, and geospatial solutions offered by the organization. The website showcases services, projects, and research activities while providing clients and partners with easy access to information and contact options.",
       logo: Minimal,
       link: {
         label: "useminimal.com",
-        href: "link",
+        href: "https://geoclimatz.org/",
       },
     },
-    // {
-    //   title: "Barepapers",
-    //   techStack: ["Side Project", "Next.js", "Puppeteer"],
-    //   description:
-    //     "Generates beautiful wallpapers using random shapes and gradients",
-    //   logo: BarepapersLogo,
-    //   link: {
-    //     label: "barepapers.com",
-    //     href: "https://barepapers.com/",
-    //   },
-    // },
+    {
+      title: "Vicoba Management System",
+      techStack: ["Django", "Next.js", "Reast API"],
+      description:
+        "I developed a web application that helps manage and automate the operations of a vicoba (a type of microfinance institution). The system allows users to easily track contributions, manage loans, and generate reports, streamlining the administrative tasks associated with running a vicoba.",
+      logo: BarepapersLogo,
+      link: {
+        label: "barepapers.com",
+        href: "https://vicoba-tawny.vercel.app/",
+      },
+    },
     // {
     //   title: "Year progress",
     //   techStack: ["Side Project", "TypeScript", "Next.js"],
