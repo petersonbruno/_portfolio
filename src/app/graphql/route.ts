@@ -18,4 +18,11 @@ const apolloServer = new ApolloServer({
 const handler = startServerAndCreateNextHandler<NextRequest>(apolloServer, {
   context: async (req) => ({ req }),
 });
-export { handler as GET, handler as POST };
+
+export const GET = async (request: NextRequest, context: { params?: any }) => {
+  return (handler as unknown as (req: NextRequest, ctx?: any) => Promise<Response>)(request, context);
+};
+
+export const POST = async (request: NextRequest, context: { params?: any }) => {
+  return (handler as unknown as (req: NextRequest, ctx?: any) => Promise<Response>)(request, context);
+};
