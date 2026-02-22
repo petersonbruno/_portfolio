@@ -19,10 +19,10 @@ const handler = startServerAndCreateNextHandler<NextRequest>(apolloServer, {
   context: async (req) => ({ req }),
 });
 
-export const GET = async (request: NextRequest, context: { params?: any }) => {
-  return (handler as unknown as (req: NextRequest, ctx?: any) => Promise<Response>)(request, context);
+export const GET = async (request: NextRequest, context: { params: any }) => {
+  return (handler as unknown as (req: NextRequest, ctx: { params: any }) => Promise<Response>)(request, context);
 };
 
-export const POST = async (request: NextRequest, context: { params?: any }) => {
-  return (handler as unknown as (req: NextRequest, ctx?: any) => Promise<Response>)(request, context);
+export const POST = async (request: NextRequest, context: { params: any }) => {
+  return (handler as unknown as (req: NextRequest, ctx: { params: any }) => Promise<Response>)(request, context);
 };
